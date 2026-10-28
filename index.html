@@ -1,240 +1,310 @@
-<!--- google font link-->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-  rel="stylesheet"
-/>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NetHome — Личный Кинотеатр</title>
+    <link rel="stylesheet" href="css/style.css" />
 
-<!-- Fontawesome Link for Icons -->
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-/>
+    <!--- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-
-<!-- hero section starts  -->
-<section class="hero">
-  <div class="main">
-    <div class="content">
-      <p>NetHome 4K</p>
-      <h1>Персональный <strong>Кинотеатр</strong> без рекламы.</h1>
-      <div class="meta-wrapper">
-        <div class="badge">
-          <span>1080P</span>
-          <span>4K HDR</span>
-        </div>
-        <div class="genre">
-          <span><a href="">Мировые хиты,</a> <a href="">Армянская озвучка</a></span>
-        </div>
-        <div class="date-time">
-          <span><i class="fa-solid fa-calendar-days"></i> 2026</span>
-          <span><i class="fa-regular fa-clock"></i> Без лимитов</span>
-        </div>
-      </div>
-      <div class="watch-btn">
-        <button onclick="window.open('https://www.youtube.com/embed/Way9Dexny3w', '_blank')"><i class="fa-solid fa-play"></i> Смотреть онлайн</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- upcoming movie section starts  -->
-<section class="upcoming-movie">
-  <div class="header">
-    <div class="subtitle">
-      <small>онлайн каталог</small>
-      <h4>Мировые премьеры (1080p / 4K)</h4>
-    </div>
-  </div>
-  <div class="movie-card">
-    <div class="wrapper">
-      <ul class="movie-carousel">
-        <!-- 1. Дюна 2 -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/embed/Way9Dexny3w" target="_blank"><img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="Дюна 2" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/embed/Way9Dexny3w" target="_blank"><h4>Дюна: Часть вторая</h4></a>
-            <span>2024</span>
-          </div>
-          <div class="footer">
-            <span>4K</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 166 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.8</span>
-            </div>
-          </div>
-        </li>
-        <!-- 2. Интерстеллар -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/embed/zSWdZVtXT7E" target="_blank"><img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Интерстеллар" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/embed/zSWdZVtXT7E" target="_blank"><h4>Интерстеллар</h4></a>
-            <span>2014</span>
-          </div>
-          <div class="footer">
-            <span>4K</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 169 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.7</span>
-            </div>
-          </div>
-        </li>
-        <!-- 3. Оппенгеймер -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/embed/uYPbbksJxIg" target="_blank"><img src="https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg" alt="Оппенгеймер" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/embed/uYPbbksJxIg" target="_blank"><h4>Оппенгеймер</h4></a>
-            <span>2023</span>
-          </div>
-          <div class="footer">
-            <span>4K</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 180 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.6</span>
-            </div>
-          </div>
-        </li>
-        <!-- 4. Тёмный рыцарь -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/embed/EXeTwQWrcwY" target="_blank"><img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="Тёмный рыцарь" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/embed/EXeTwQWrcwY" target="_blank"><h4>Тёмный рыцарь</h4></a>
-            <span>2008</span>
-          </div>
-          <div class="footer">
-            <span>1080p</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 152 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.5</span>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- armenian movie section start  -->
-<section class="top-movie same">
-  <div class="header">
-    <small>национальный контент</small>
-    <h4>Армянские фильмы и сериалы</h4>
-  </div>
-  <div class="top-movie-main">
-    <div class="movie-card">
-      <ul class="wrapper">
-        <!-- Армянский фильм 1 -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.jpg" alt="Мхитар Спарапет" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><h4>Мхитар Спарапет</h4></a>
-            <span>1978</span>
-          </div>
-          <div class="footer">
-            <span>HD</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 140 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.2</span>
-            </div>
-          </div>
-        </li>
-        <!-- Армянский фильм 2 -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82Twj48Jyl.jpg" alt="Ереванский кейс" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><h4>Ереванский кейс</h4></a>
-            <span>2023</span>
-          </div>
-          <div class="footer">
-            <span>1080p</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 110 мин</span>
-              <span><i class="fa-solid fa-star"></i> 7.9</span>
-            </div>
-          </div>
-        </li>
-        <!-- Армянский фильм 3 -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg" alt="Сериал / Шоу" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><h4>Армянские сериалы</h4></a>
-            <span>2025</span>
-          </div>
-          <div class="footer">
-            <span>HD</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 45 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.0</span>
-            </div>
-          </div>
-        </li>
-        <!-- Армянский фильм 4 -->
-        <li class="card">
-          <div class="img">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="Классика кино" /></a>
-          </div>
-          <div class="title">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><h4>Песню вечно поем</h4></a>
-            <span>1980</span>
-          </div>
-          <div class="footer">
-            <span>HD</span>
-            <div class="time-rating">
-              <span><i class="fa-regular fa-clock"></i> 95 мин</span>
-              <span><i class="fa-solid fa-star"></i> 8.1</span>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- footer section start -->
-<footer>
-  <div class="main">
-    <div class="footer-top">
-      <nav>
+    <!-- Fontawesome Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <style>
+      /* Стили для модального плеера */
+      .video-modal {
+        display: none;
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .video-modal iframe {
+        width: 85%;
+        height: 80%;
+        border: none;
+        border-radius: 8px;
+      }
+      .close-player {
+        position: absolute;
+        top: 20px; right: 40px;
+        background: #e50914;
+        color: #fff;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .card {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <header>
+      <nav class="navbar">
         <div class="logo">
-          <img src="images/logo.svg" alt="">
+          <a href="#"><img src="images/logo.svg" alt="" /></a>
         </div>
-        <ul class="list">
-          <li><a href="">Главная</a></li>
-          <li><a href="">Фильмы 4K</a></li>
-          <li><a href="">Армянский контент</a></li>
+        <ul class="nav-list">
+          <div class="logo">
+            <a href="#"><img src="images/logo.svg" alt=""></a>
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <li class="home"><a href="#">Главная</a></li>
+          <li><a href="#">Фильмы</a></li>
+          <li><a href="#">Армянское кино</a></li>
+          <li><a href="#">Сериалы</a></li>
         </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </nav>
-      <hr>
-      <div class="links">
-        <div class="text-links">
-          <a href="">NetHome Personal Streaming — Без рекламы</a>
+    </header>
+
+    <!-- hero section starts  -->
+    <section class="hero">
+      <div class="main">
+        <div class="content">
+          <p>NetHome Exclusive</p>
+          <h1>Лучшее <strong>кино</strong> без рекламы для вас.</h1>
+          <div class="meta-wrapper">
+            <div class="badge">
+              <span>18+</span>
+              <span>4K ULTRA HD</span>
+            </div>
+            <div class="genre">
+              <span><a href="#">Премьеры,</a> <a href="#">Армянское кино</a></span>
+            </div>
+            <div class="date-time">
+              <span><i class="fa-solid fa-calendar-days"></i> 2026</span>
+              <span><i class="fa-regular fa-clock"></i> HD Quality</span>
+            </div>
+          </div>
+          <div class="watch-btn">
+            <button onclick="playVideo('https://www.youtube.com/embed/Way9Dexny3w')"><i class="fa-solid fa-play"></i> Смотреть премьеру</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="copyright">
-        <p>&#169; 2026 NetHome. All Rights Reserved</p>
+    </section>
+
+    <!-- upcoming movie section starts (Мировые новинки) -->
+    <section class="upcoming-movie">
+      <div class="header">
+        <div class="subtitle">
+          <small>online Streaming</small>
+          <h4>Мировые хиты (1080p / 4K)</h4>
+        </div>
       </div>
+      <div class="movie-card">
+        <div class="wrapper">
+          <ul class="movie-carousel">
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/Way9Dexny3w')">
+              <div class="img">
+                <img src="images/upcoming-1.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Дюна: Часть вторая</h4>
+                <span>2024</span>
+              </div>
+              <div class="footer">
+                <span>4K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 166 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.6</span>
+                </div>
+              </div>
+            </li>
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/uYPbbksJxIg')">
+              <div class="img">
+                <img src="images/upcoming-2.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Оппенгеймер</h4>
+                <span>2023</span>
+              </div>
+              <div class="footer">
+                <span>4K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 180 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.9</span>
+                </div>
+              </div>
+            </li>
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/zSWdZVtXT7E')">
+              <div class="img">
+                <img src="images/upcoming-3.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Интерстеллар</h4>
+                <span>2014</span>
+              </div>
+              <div class="footer">
+                <span>2K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 169 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.7</span>
+                </div>
+              </div>
+            </li>
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/EXeTwQWrcwY')">
+              <div class="img">
+                <img src="images/upcoming-4.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Тёмный рыцарь</h4>
+                <span>2008</span>
+              </div>
+              <div class="footer">
+                <span>HD</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 152 min</span>
+                  <span><i class="fa-solid fa-star"></i> 9.0</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- top movie section start (Армянский контент) -->
+    <section class="top-movie same">
+      <div class="header">
+        <small>national production</small>
+        <h4>Армянское кино и сериалы</h4>
+      </div>
+      <div class="top-movie-main">
+        <div class="movie-card">
+          <ul class="wrapper">
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/Way9Dexny3w')">
+              <div class="img">
+                <img src="images/movie-1.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Мхитар Спарапет</h4>
+                <span>1978</span>
+              </div>
+              <div class="footer">
+                <span>HD</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 135 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.5</span>
+                </div>
+              </div>
+            </li>
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/uYPbbksJxIg')">
+              <div class="img">
+                <img src="images/movie-2.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Ереванский кейс (Сериал)</h4>
+                <span>2024</span>
+              </div>
+              <div class="footer">
+                <span>4K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 50 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.2</span>
+                </div>
+              </div>
+            </li>
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/zSWdZVtXT7E')">
+              <div class="img">
+                <img src="images/movie-3.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Песнь о Герое</h4>
+                <span>2021</span>
+              </div>
+              <div class="footer">
+                <span>2K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 110 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.1</span>
+                </div>
+              </div>
+            </li>
+            <li class="card" onclick="playVideo('https://www.youtube.com/embed/EXeTwQWrcwY')">
+              <div class="img">
+                <img src="images/movie-4.png" alt="" />
+              </div>
+              <div class="title">
+                <h4>Земляк (Армянская озвучка)</h4>
+                <span>2023</span>
+              </div>
+              <div class="footer">
+                <span>4K</span>
+                <div class="time-rating">
+                  <span><i class="fa-regular fa-clock"></i> 120 min</span>
+                  <span><i class="fa-solid fa-star"></i> 8.0</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Модальное окно плеера -->
+    <div id="videoModal" class="video-modal">
+      <button class="close-player" onclick="closeVideo()">Закрыть ✕</button>
+      <iframe id="videoPlayer" src="" allowfullscreen></iframe>
     </div>
-  </div>
-</footer>
 
-<button class="back-to-top"><i class="fa-solid fa-chevron-up"></i></button>
+    <!-- footer section start -->
+    <footer>
+      <div class="main">
+        <div class="footer-top">
+          <nav>
+            <div class="logo">
+              <img src="images/logo.svg" alt="">
+            </div>
+            <ul class="list">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Фильмы</a></li>
+              <li><a href="#">Армянское кино</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&#169; 2026 NetHome. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-<script src="js/script.js"></script>
-<script src="js/navbar.js"></script>
+    <button class="back-to-top"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
+    <script>
+      function playVideo(url) {
+        document.getElementById('videoPlayer').src = url;
+        document.getElementById('videoModal').style.display = 'flex';
+      }
+      function closeVideo() {
+        document.getElementById('videoPlayer').src = '';
+        document.getElementById('videoModal').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
